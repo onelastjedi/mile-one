@@ -20,12 +20,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Join'
-}
-</script>
-
 <style lang="scss">
   .join {
     display: grid;
