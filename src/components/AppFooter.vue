@@ -3,7 +3,7 @@
     <div class="footer__inner">
       <div class="footer__copy">
         <span>Copyright 2019</span>|
-        <span>Blackmile</span>|
+        <span>Blackmile</span><br><em>|</em>
         <span>All Right Reserved</span>
       </div>
       <div class="footer__social">
@@ -31,12 +31,28 @@
     height: 80px;
     background-color: #000;
 
+    br {
+      @media (min-width: 468px) {
+        display: none;
+      }
+    }
+
+    em {
+      @media (max-width: 468px) {
+        display: none;
+      }
+
+      font-style: normal;
+    }
+
     a {
       display: inline-block;
       margin: 0 20px;
     }
 
     &__copy {
+      padding-left: 15px;
+      line-height: 1.5;
       span {
         padding: 8px;
       }

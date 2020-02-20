@@ -8,6 +8,7 @@
       </div>
     </div>
     <div class="image" key="01">
+      <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
       <img src="@/assets/images/DSC_5347.jpg" />
       <div class="caption">
         <h3>Dyneema® Fabric</h3>
@@ -34,6 +35,14 @@
 <style lang="scss">
   .section-big-photos-mobile {
     display: block;
+
+    .dyneema-logo {
+      width: 77px;
+      height: 73px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
 
     img {
       width: 100%;
