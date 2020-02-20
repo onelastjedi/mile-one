@@ -133,6 +133,12 @@
       font-weight: 600;
       background-color: #D08938;
       color: #fff;
+      transition: .2s all ease-out;
+
+      &:hover {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+        background-color: #B9711F;
+      }
     }
   }
 </style>
