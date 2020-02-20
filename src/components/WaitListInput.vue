@@ -33,6 +33,7 @@ export default {
     outline: none;
     font-size: 12px;
     color: #1B1B1B;
+    border: none;
   }
 
   .bg {
