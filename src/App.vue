@@ -35,7 +35,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  h1 {
+  h1, h2, h3 {
     font-family: 'Kulturista', sans-serif;
     font-weight: normal;
   }
