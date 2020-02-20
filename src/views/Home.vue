@@ -1,11 +1,15 @@
 <template>
   <div class="home">
-    Home
+    <app-header-mobile />
   </div>
 </template>
 
 <script>
+import AppHeaderMobile from '@/components/AppHeaderMobile'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    AppHeaderMobile
+  }
 }
 </script>
