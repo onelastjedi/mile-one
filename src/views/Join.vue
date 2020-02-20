@@ -70,6 +70,12 @@
       font-weight: 600;
       background-color: #4B6BB0;
       color: #fff;
+      transition: .2s all ease-out;
+
+      &:hover {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+        background-color: #3D5A98;
+      }
 
       &__icon {
         border-top-left-radius: 3px;
