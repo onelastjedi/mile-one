@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <footer class="footer">
     <div class="footer__inner">
       <div class="footer__copy">
