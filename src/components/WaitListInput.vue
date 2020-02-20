@@ -42,7 +42,7 @@ export default {
     background-color: #fff;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 10px;
     align-items: center;
     padding: 0 20px;
   }
