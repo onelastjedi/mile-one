@@ -3,9 +3,8 @@
     <div class="padded-20">
       <img class="blackmile-logo-mobile" src="@/assets/images/blackmile_logo-transparent-2x.png" />
       <img class="kickstarter-logo-mobile" src="@/assets/images/kickstarter-logo-transparent-2x.png" />
-      <h1>Introducing<br>the Mile One</h1>
+      <h1>Introducing the Mile One</h1>
       <div class="descr">
-        <img class="dyneema-logo-mobile" src="@/assets/images/dyneema-logo-transparent-2x.png" />
         A minimalist travel bag made from ultra strong Dyneema® fabric.
       </div>
     </div>
@@ -43,14 +42,14 @@ export default {
   .header-m {
     color: #fff;
     position: relative;
-    padding-bottom: 15px;
 
     h1 {
-      font-size: 36px;
+      font-size: 28px;
+      margin: 10px 0 5px;
     }
 
     .padded-20 {
-      padding: 20px;
+      padding: 15px 20px;
     }
 
     .fullwidth {
@@ -63,8 +62,8 @@ export default {
     }
 
     .kickstarter-logo-mobile {
-      width: 99px;
-      height: 96px;
+      width: 66px;
+      height: 64px;
       position: absolute;
       right: 20px;
     }
@@ -78,17 +77,16 @@ export default {
       display: grid;
       grid-template-columns: auto 1fr;
       grid-column-gap: 20px;
-      color: #D08938;
-      line-height: 24px;
+      font-size: 12px;
     }
 
     .features {
-      padding: 20px;
+      padding: 10px 20px;
 
       h3 {
+        font-family: 'Avenir Next', sans-serif !important;
         margin: 0 0 10px 0;
         font-size: 16px;
-        font-weight: 300;
         text-transform: uppercase;
       }
 
@@ -105,6 +103,7 @@ export default {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(43%, 1fr));
         grid-column-gap: 7%;
+        font-size: 14px;
 
         li {
           white-space: nowrap;
