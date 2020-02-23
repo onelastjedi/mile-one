@@ -54,6 +54,8 @@ export default {
   }
 
   button {
+    cursor: pointer;
+    white-space: nowrap;
     background-color: #D08938;
     border: 0;
     color: #fff;
