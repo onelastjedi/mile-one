@@ -44,7 +44,7 @@ export default {
     position: relative;
 
     h1 {
-      font-size: 28px;
+      font-size: 7vw;
       margin: 10px 0 5px;
     }
 
