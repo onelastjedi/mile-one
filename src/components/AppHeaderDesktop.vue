@@ -155,13 +155,10 @@ export default {
     }
 
     .scroll {
-      width: 70px;
-      left: 0;
-      right: 0;
-      margin: auto;
+      display: grid;
+      align-items: center;
+      justify-items: center;
       text-align: center;
-      position: absolute;
-      bottom: 40px;
     }
   }
 </style>
