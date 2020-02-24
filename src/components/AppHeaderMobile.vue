@@ -74,10 +74,7 @@ export default {
     }
 
     .descr {
-      display: grid;
-      grid-template-columns: auto 1fr;
-      grid-column-gap: 20px;
-      font-size: 12px;
+      font-size: 2.9vw;
     }
 
     .features {
@@ -115,7 +112,8 @@ export default {
       padding: 0 20px 20px;
 
       i {
-        font-size: 14px;
+        font-size: 3.5vw;
+        // font-size: 14px;
       }
 
       .disclaimer {
