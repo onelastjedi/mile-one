@@ -47,7 +47,7 @@
 
     a {
       display: inline-block;
-      margin: 0 20px;
+      margin: 0 10px;
     }
 
     &__copy {
@@ -68,6 +68,7 @@
     }
 
     &__social {
+      padding-right: 15px;
       svg {
         fill: #fff;
       }
