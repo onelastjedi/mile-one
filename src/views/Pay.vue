@@ -192,8 +192,8 @@
       padding: 20px 0;
       text-align: left;
       display: grid;
-      grid-column-gap: 5px;
-      grid-row-gap: 20px;
+      grid-column-gap: 7px;
+      grid-row-gap: 15px;
       grid-template-columns: auto 1fr;
 
       @media #{$mobile} {
@@ -206,15 +206,15 @@
       line-height: 1.7 !important;
 
       @media #{$desktop} {
-        line-height: 1.6!important;
-        font-size: 11px!important;
+        line-height: 1.6 !important;
+        font-size: 12px !important;
       }
     }
 
     svg {
       fill: #D08938;
       width: 12px;
-      height: 16px;
+      height: 20px;
     }
 
     .form {
