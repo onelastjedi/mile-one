@@ -104,16 +104,22 @@
 
     .descr {
       line-height: 1.5;
+
+      @media #{$desktop} {
+        padding: 0 80px;
+      }
     }
 
     h1 {
-      font-size: 37px;
+      font-size: 24px;
       line-height: 1.7;
       margin: 0;
       letter-spacing: 0.62px;
       margin-bottom: 30px;
+      padding: 0 20px;
 
       @media #{$mobile} {
+        padding: 0;
         font-size: 20px;
         margin-bottom: 20px;
 
@@ -160,14 +166,17 @@
 
     &__box {
       width: 100%;
-      max-width: 818px;
+      max-width: 808px;
       border-radius: 9px;
       padding: 50px 0;
       text-align: center;
       color: #fff;
       background-color: rgba(25, 25, 25, .9);
+      padding: 25px 50px;
+      margin: 50px auto;
 
       @media #{$mobile} {
+        margin: 0;
         padding: 25px 20px 0 20px;
 
         br {
@@ -197,11 +206,26 @@
 
     .form {
       text-align: left;
+
+      @media #{$desktop} {
+        display: grid;
+        grid-template-areas: "a b"
+                             "c b";
+        grid-column-gap: 30px;
+      }
     }
 
     .reservation {
       font-size: 12px;
       margin-bottom: 15px;
+
+      @media #{$desktop} {
+        grid-area: a;
+
+        h4 {
+          margin-bottom: 14px;
+        }
+      }
 
       .column {
         display: grid;
@@ -210,6 +234,10 @@
     }
 
     .billing {
+      @media #{$desktop} {
+        grid-area: b;
+      }
+
       label {
         display: inline-block;
         margin-bottom: 5px;
@@ -259,6 +287,10 @@
     }
 
     .disclaimer {
+      @media #{$desktop} {
+        grid-area: c;
+      }
+
       line-height: 1.9;
       color: #A9A9A9;
       font-size: 8px;
