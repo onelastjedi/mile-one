@@ -113,7 +113,7 @@
       line-height: 1.7;
       margin: 0;
       letter-spacing: 0.62px;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       padding: 0 20px;
 
       @media #{$mobile} {
@@ -198,6 +198,11 @@
 
     .small {
       margin: 0;
+
+      @media #{$desktop} {
+        line-height: 1.6!important;
+        font-size: 11px!important;
+      }
     }
 
     svg {
