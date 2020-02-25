@@ -4,6 +4,7 @@
       <app-header-desktop />
       <section-features-desktop />
       <section-big-photos-desktop />
+      <section-square-photos-desktop />
     </div>
     <div class="mobile">
       <app-header-mobile />
@@ -28,6 +29,7 @@ import SectionSquarePhotosMobile from '@/components/SectionSquarePhotosMobile'
 import AppHeaderDesktop from '@/components/AppHeaderDesktop'
 import SectionFeaturesDesktop from '@/components/SectionFeaturesDesktop'
 import SectionBigPhotosDesktop from '@/components/SectionBigPhotosDesktop'
+import SectionSquarePhotosDesktop from '@/components/SectionSquarePhotosDesktop'
 export default {
   components: {
     AppHeaderMobile,
@@ -38,7 +40,8 @@ export default {
     SectionSquarePhotosMobile,
     AppHeaderDesktop,
     SectionFeaturesDesktop,
-    SectionBigPhotosDesktop
+    SectionBigPhotosDesktop,
+    SectionSquarePhotosDesktop
   }
 }
 </script>
