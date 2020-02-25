@@ -35,6 +35,7 @@
     <!-- Разобраться с размером картинок -->
     <div class="column images">
       <div class="square">
+        <img class="kickstarter-logo" src="@/assets/images/desktop/kickstarter-logo-desktop-2x.png" />
         <img class="square" src="@/assets/images/20200119-DSC_4942.jpg" />
       </div>
       <div class="square">
@@ -88,8 +89,17 @@ export default {
     }
 
     .images {
+      position: relative;
       display: grid;
       grid-template-columns: 50% 50%;
+
+      .kickstarter-logo {
+        top: 20px;
+        left: 30px;
+        position: absolute;
+        width: 130px;
+        height: 125px;
+      }
 
       img {
         display: block;
