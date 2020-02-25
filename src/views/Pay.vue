@@ -120,6 +120,7 @@
         padding: 0;
         font-size: 20px;
         margin-bottom: 20px;
+        line-height: 1.5;
 
         br {
           display: inline;
@@ -194,10 +195,15 @@
       grid-column-gap: 5px;
       grid-row-gap: 20px;
       grid-template-columns: auto 1fr;
+
+      @media #{$mobile} {
+        grid-row-gap: 15px;
+      }
     }
 
     .small {
       margin: 0;
+      line-height: 1.7 !important;
 
       @media #{$desktop} {
         line-height: 1.6!important;
