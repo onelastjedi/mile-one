@@ -129,6 +129,10 @@
       }
     }
 
+    input[type=radio] {
+      margin-right: 8px;
+    }
+
     button {
       cursor: pointer;
       white-space: nowrap;
@@ -172,7 +176,7 @@
       text-align: center;
       color: #fff;
       background-color: rgba(25, 25, 25, .9);
-      padding: 25px 50px;
+      padding: 40px;
       margin: 50px auto;
 
       @media #{$mobile} {
