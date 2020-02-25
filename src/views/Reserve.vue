@@ -84,6 +84,12 @@
     p {
       letter-spacing: 0.41px;
       margin-bottom: 30px;
+
+      @media #{$mobile} {
+        max-width: 373px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     .small {
