@@ -15,6 +15,20 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: 'Kulturista';
+  src: url('./assets/fonts/Kulturista-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets/fonts/AvenirNext-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -48,19 +62,5 @@ html, body {
     font-size: 10px;
     line-height: 1.5;
   }
-}
-
-@font-face {
-    font-family: 'Kulturista';
-    src: url('./assets/fonts/Kulturista-Regular.woff') format('woff');
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./assets/fonts/AvenirNext-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
 }
 </style>
