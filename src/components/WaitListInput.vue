@@ -43,9 +43,9 @@ export default {
     display: grid;
     height: 44px;
     grid-template-columns: auto 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 7px;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 12px;
   }
 
   .borders {
