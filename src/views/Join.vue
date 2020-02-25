@@ -47,6 +47,12 @@
     .small {
       letter-spacing: 0.26px;
       margin-top: 14px;
+
+      @media #{$mobile} {
+        br {
+          display: none;
+        }
+      }
     }
 
     &__box {
@@ -59,6 +65,7 @@
       background-color: rgba(25, 25, 25, .9);
 
       @media #{$mobile} {
+        padding: 0 20px;
         background: transparent;
       }
     }
