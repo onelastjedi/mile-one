@@ -1,26 +1,61 @@
 <template>
   <div class="home">
-    <app-header-mobile />
-    <section-features-mobile />
-    <section-big-photos-mobile />
-    <section-join-waitlist-mobile />
-    <section-square-photos-mobile />
+    <div class="desktop">
+      <app-header-desktop />
+      <section-features-desktop />
+      <section-big-photos-desktop />
+    </div>
+    <div class="mobile">
+      <app-header-mobile />
+      <section-big-photos-mobile-first />
+      <section-features-mobile />
+      <section-big-photos-mobile-second />
+      <section-join-waitlist-mobile />
+      <section-square-photos-mobile />
+    </div>
   </div>
 </template>
 
 <script>
+// Mobile components
 import AppHeaderMobile from '@/components/AppHeaderMobile'
 import SectionFeaturesMobile from '@/components/SectionFeaturesMobile'
-import SectionBigPhotosMobile from '@/components/SectionBigPhotosMobile'
+import SectionBigPhotosMobileFirst from '@/components/SectionBigPhotosMobileFirst'
+import SectionBigPhotosMobileSecond from '@/components/SectionBigPhotosMobileSecond'
 import SectionJoinWaitlistMobile from '@/components/SectionJoinWaitlistMobile'
 import SectionSquarePhotosMobile from '@/components/SectionSquarePhotosMobile'
+// Desktop components
+import AppHeaderDesktop from '@/components/AppHeaderDesktop'
+import SectionFeaturesDesktop from '@/components/SectionFeaturesDesktop'
+import SectionBigPhotosDesktop from '@/components/SectionBigPhotosDesktop'
 export default {
   components: {
     AppHeaderMobile,
     SectionFeaturesMobile,
-    SectionBigPhotosMobile,
+    SectionBigPhotosMobileFirst,
+    SectionBigPhotosMobileSecond,
     SectionJoinWaitlistMobile,
-    SectionSquarePhotosMobile
+    SectionSquarePhotosMobile,
+    AppHeaderDesktop,
+    SectionFeaturesDesktop,
+    SectionBigPhotosDesktop
   }
 }
 </script>
+
+<style lang="scss">
+  $desktop: "(min-width: 768px)";
+  $mobile: "(max-width: 768px)";
+
+  .desktop {
+    @media #{$mobile} {
+      display: none;
+    }
+  }
+
+  .mobile {
+    @media #{$desktop} {
+      display: none;
+    }
+  }
+</style>
