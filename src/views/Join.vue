@@ -21,6 +21,9 @@
 </template>
 
 <style lang="scss">
+  $desktop: "(min-width: 768px)";
+  $mobile: "(max-width: 768px)";
+
   .join {
     display: grid;
     align-items: center;
@@ -54,6 +57,10 @@
       text-align: center;
       color: #fff;
       background-color: rgba(25, 25, 25, .9);
+
+      @media #{$mobile} {
+        background: transparent;
+      }
     }
 
     &__button {
