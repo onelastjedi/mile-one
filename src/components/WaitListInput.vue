@@ -41,6 +41,7 @@ export default {
     border-bottom-left-radius: 3px;
     background-color: #fff;
     display: grid;
+    height: 44px;
     grid-template-columns: auto 1fr;
     grid-column-gap: 10px;
     align-items: center;
@@ -58,6 +59,9 @@ export default {
     white-space: nowrap;
     background-color: #D08938;
     border: 0;
+    height: 44px;
+    margin: 0;
+    padding: 0;
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
