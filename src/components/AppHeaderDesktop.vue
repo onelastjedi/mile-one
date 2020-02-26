@@ -34,13 +34,12 @@
     </div>
     <div class="column images">
       <img class="kickstarter-logo" src="@/assets/images/kickstarter-logo-desktop-2x.png" />
-      <video controls width="100%" poster="@/assets/images/video-poster-desktop.jpg">
-        <source src="@/assets/video/4K-Black-Mile-V4cc.mp4" type="video/mp4">
+      <video controls preload="auto" width="100%" poster="@/assets/images/video-poster-desktop.jpg">
+        <source src="https://s3.eu-central-1.amazonaws.com/onelastjedi.com/video/4K-Black-Mile-V4cc.mp4" type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
       </video>
       <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
     </div>
-
   </div>
 </template>
 
@@ -90,7 +89,6 @@ export default {
       display: grid;
       align-items: center;
       grid-template-rows: auto 1fr auto;
-      // grid-template-columns: 50% 50%;
 
       .dyneema-logo {
         width: 91px;
