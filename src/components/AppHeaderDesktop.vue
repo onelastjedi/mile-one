@@ -32,21 +32,13 @@
         </svg>
       </div>
     </div>
-    <!-- Разобраться с размером картинок -->
     <div class="column images">
-      <div class="square">
-        <img class="kickstarter-logo" src="@/assets/images/kickstarter-logo-desktop-2x.png" />
-        <img class="square" src="@/assets/images/20200119-DSC_4942.jpg" />
-      </div>
-      <div class="square">
-        <img class="square" src="@/assets/images/20200119-DSC_5130-square.jpg" />
-      </div>
-      <div class="square">
-         <img class="square" src="@/assets/images/20200119-DSC_5256-square.jpg" />
-      </div>
-      <div class="square">
-        <img class="square" src="@/assets/images/20200119-DSC_4976-square.jpg" />
-      </div>
+      <img class="kickstarter-logo" src="@/assets/images/kickstarter-logo-desktop-2x.png" />
+      <video controls width="100%" poster="@/assets/images/video-poster-desktop.jpg">
+        <source src="@/assets/video/4K-Black-Mile-V4cc.mp4" type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
     </div>
 
   </div>
@@ -88,17 +80,31 @@ export default {
       height: 85px;
     }
 
+    video {
+      outline: none;
+    }
+
     .images {
+      padding: 20px 0;
       position: relative;
       display: grid;
-      grid-template-columns: 50% 50%;
+      align-items: center;
+      grid-template-rows: auto 1fr auto;
+      // grid-template-columns: 50% 50%;
+
+      .dyneema-logo {
+        width: 91px;
+        height: 86px;
+        justify-self: end;
+        margin-right: 50px;
+        margin-bottom: 30px;
+      }
 
       .kickstarter-logo {
-        top: 20px;
-        left: 30px;
-        position: absolute;
         width: 130px;
         height: 125px;
+        justify-self: end;
+        margin-right: 50px;
       }
 
       img {
