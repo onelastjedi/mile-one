@@ -6,7 +6,9 @@
       </svg>
       <input type="text" placeholder="Email Address" />
     </div>
-    <button>Join Waitlist</button>
+    <router-link to="/reserve">
+      <button>Join Waitlist</button>
+    </router-link>
   </div>
 </template>
 
