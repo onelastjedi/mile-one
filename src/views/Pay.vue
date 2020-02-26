@@ -7,13 +7,13 @@
       </div>
       <div class="list">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
-        <p class="small">Benefit: With $1, you can support us to take Blackmile through tooling and the first manufacturing run. As a token of our appreciation, we will be offering you the lowest price we can - $ZZZ (a full X% OFF retail price of $Y).</p>
+        <p class="small">Benefit: <b>With $1</b>, you can support us to take Blackmile through tooling and the first manufacturing run. As a token of our appreciation, we will be offering you the lowest price we can - <b>$ZZZ (a full X% OFF retail price of $Y)</b>.</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
         <p class="small">Since we are in the final stages of development, we have tried to describe the Blackmile as accurately as possible, but things may change over time.</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
-        <p class="small">Blackmile will MSRP for $Y, and this is a limited time offer so now is the time to support us.</p>
+        <p class="small">Blackmile will MSRP for $Y, and this is a limited time offer so <b>now is the time to support us</b>.</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
-        <p class="small">By reserving a Blackmile, you’re commiting to purchasing on the Blackmile crowdfunding page. You’ll be notified via email once the page is live and your payment needs to be submitted. Once payment is received, your order will be shipped out within the estimated delivery timeline.</p>
+        <p class="small">By reserving a Blackmile, you’re commiting to purchasing on the Blackmile crowdfunding page. You’ll be <b>notified via email</b> once the page is live and your payment needs to be submitted. Once payment is received, your order will be shipped out within the estimated delivery timeline.</p>
       </div>
       <div class="form">
         <div class="reservation">
