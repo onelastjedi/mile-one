@@ -7,14 +7,6 @@
         <p>A minimalist travel bag made from ultra strong<br>Dyneema® fabric.</p>
       </div>
     </div>
-    <!-- <div class="image" key="01">
-      <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
-      <img src="@/assets/images/DSC_5347.jpg" />
-      <div class="caption">
-        <h3>Dyneema® Fabric</h3>
-        <p>Made from a revolutionary lightweight fabric that<br>has a tensile strength 15x’s stonger than steel.</p>
-      </div>
-    </div> -->
     <div class="image" key="02">
       <img src="@/assets/images/20200119-DSC_5386.jpg" />
       <div class="caption">

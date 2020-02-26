@@ -9,14 +9,14 @@
       </div>
     </div>
     <div class="image" key="02">
-      <img src="@/assets/images/mobile/material-plus-science.jpg" />
+      <img src="@/assets/images/material-plus-science.jpg" />
       <div class="caption">
         <h3>Material <span>+</span> Science</h3>
         <p>Dyneema® fabric is made of ultra-high-molecular-weight polyethylene fibers sandwiched between two layers of film, resulting in a flexible and extremely durable material.</p>
       </div>
     </div>
     <div class="image" key="03">
-      <img src="@/assets/images/mobile/extreme-durability.jpg" />
+      <img src="@/assets/images/extreme-durability.jpg" />
       <div class="caption">
         <h3>Extreme Durability</h3>
         <p>Used in environments where there is no compromise on performance, Dyneema® fabric is ultra lightweight, weatherproof and rip-proof.</p>

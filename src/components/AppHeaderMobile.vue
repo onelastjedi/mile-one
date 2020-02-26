@@ -1,7 +1,7 @@
 <template>
   <div class="header-m">
     <div class="padded-20">
-      <img class="blackmile-logo-mobile" src="@/assets/images/blackmile_logo-transparent-2x.png" />
+      <img class="blackmile-logo-mobile" src="@/assets/images/blackmile-logo.svg" />
       <img class="kickstarter-logo-mobile" src="@/assets/images/kickstarter-logo-transparent-2x.png" />
       <h1>Introducing the Mile One</h1>
       <div class="descr">
