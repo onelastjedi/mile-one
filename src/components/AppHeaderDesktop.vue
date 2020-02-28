@@ -32,21 +32,12 @@
         </svg>
       </div>
     </div>
-    <!-- Разобраться с размером картинок -->
     <div class="column images">
-      <div class="square">
-        <img class="kickstarter-logo" src="@/assets/images/kickstarter-logo-desktop-2x.png" />
-        <img class="square" src="@/assets/images/20200119-DSC_4942.jpg" />
-      </div>
-      <div class="square">
-        <img class="square" src="@/assets/images/20200119-DSC_5130-square.jpg" />
-      </div>
-      <div class="square">
-         <img class="square" src="@/assets/images/20200119-DSC_5256-square.jpg" />
-      </div>
-      <div class="square">
-        <img class="square" src="@/assets/images/20200119-DSC_4976-square.jpg" />
-      </div>
+      <img srcset="
+        @/assets/images/desktop/pictures-4-main.jpg 1x,
+        @/assets/images/desktop/pictures-4-main@2x.jpg 2x"
+        alt="A minimalist travel bag"
+      />
     </div>
 
   </div>
@@ -90,8 +81,8 @@ export default {
 
     .images {
       position: relative;
-      display: grid;
-      grid-template-columns: 50% 50%;
+      // display: grid;
+      // grid-template-columns: 50% 50%;
 
       .kickstarter-logo {
         top: 20px;
