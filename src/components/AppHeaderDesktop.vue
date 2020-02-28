@@ -1,7 +1,7 @@
 <template>
   <div class="header-d">
     <div class="column text">
-      <img class="blackmile-logo-mobile" src="@/assets/images/blackmile-logo.svg" />
+      <img class="blackmile-logo-mobile" alt="Blackmile" src="@/assets/images/blackmile-logo.svg" />
       <h1>Introducing<br>the Mile One</h1>
       <div class="descr">
         A minimalist travel bag made from ultra strong Dyneema® fabric.
@@ -33,6 +33,8 @@
       </div>
     </div>
     <div class="column images">
+      <img src="@/assets/images/kickstarter-logo-desktop-2x.png"
+        alt="Kickstarter" class="kickstarter-logo" />
       <img srcset="
         @/assets/images/desktop/pictures-4-main.jpg 1x,
         @/assets/images/desktop/pictures-4-main@2x.jpg 2x"
