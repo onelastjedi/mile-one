@@ -8,7 +8,11 @@
         A minimalist travel bag made from ultra strong Dyneema® fabric.
       </div>
     </div>
-    <img class="fullwidth" src="@/assets/images/20200119-DSC_4941.jpg" />
+    <img class="fullwidth"
+      srcset="@/assets/images/mobile/pictures-4-main.jpg 1x,
+              @/assets/images/mobile/pictures-4-main@2x.jpg 2x"
+      alt="A minimalist travel bag"
+    />
     <div class="features">
       <h3>Features:</h3>
       <ul class="list">
