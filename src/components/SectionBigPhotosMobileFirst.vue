@@ -1,7 +1,8 @@
 <template functional>
   <div class="section-big-photos-mobile">
     <div class="image" key="01">
-      <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
+      <img class="dyneema-logo"
+        alt="Dyneema®" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
       <img srcset="
         @/assets/images/mobile/dyneema-fabric-feature.jpg 1x,
         @/assets/images/mobile/dyneema-fabric-feature@2x.jpg 2x"
