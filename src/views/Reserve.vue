@@ -5,7 +5,7 @@
       <p>To receive this offer, simply place a $1 deposit and you will secure your spot for an <br>exclusive discount on the Mile One Travel Bag made from Dyneema® fabric.</p>
       <p>Placing a $1 deposit now locks in a <b>XX% discount off</b> our MSRP of $Y.</p>
       <p>That means you’ll pay a total of $Z for your Mile One when we ship.</p>
-      <router-link to="/join">
+      <router-link to="/pay">
         <div class="reserve__button">Reserve my mile one</div>
       </router-link>
     </div>
