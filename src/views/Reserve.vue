@@ -55,7 +55,7 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    background-image: url('../assets/images/DSC00484.jpg');
+    background-image: url('../assets/images/bg/rocks-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
