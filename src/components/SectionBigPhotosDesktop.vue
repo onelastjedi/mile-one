@@ -5,7 +5,11 @@
         <h1>Designed for<br>One Bag Travel</h1>
         <p>A minimalist travel bag made from<br>ultra strong Dyneema® fabric.</p>
       </div>
-      <img src="@/assets/images/parallax-one-bag-travel.jpg" />
+      <img srcset="
+        @/assets/images/desktop/parallax-one-bag-travel.jpg 1x,
+        @/assets/images/desktop/parallax-one-bag-travel@2x.jpg 2x"
+        alt="Designed for One Bag Travel"
+      />
     </div>
     <div :class="[$style.box, $style.b2]">
       <div :class="$style.text">
@@ -14,7 +18,11 @@
           Made from a revolutionary lightweight<br>fabric that has a tensile strength 15x’s<br>stonger than steel.
         </p>
       </div>
-      <img src="@/assets/images/parallax-dyneema-fabric.jpg" />
+      <img srcset="
+        @/assets/images/desktop/parallax-dyneema-fabric.jpg 1x,
+        @/assets/images/desktop/parallax-dyneema-fabric@2x.jpg 2x"
+        alt="Dyneema® Fabric"
+      />
     </div>
     <div :class="[$style.box, $style.b3]">
       <div :class="$style.text">
@@ -23,7 +31,11 @@
           Built to withstand the rigors of global<br>travel — and look good doing it.
         </p>
       </div>
-      <img src="@/assets/images/parallax-rugged-and-handsome.jpg" />
+      <img srcset="
+        @/assets/images/desktop/parallax-rugged-and-handsome.jpg 1x,
+        @/assets/images/desktop/parallax-rugged-and-handsome@2x.jpg 2x"
+        alt="Rugged & Handsome"
+      />
     </div>
     <div :class="[$style.box, $style.b4]">
       <div :class="$style.text">
@@ -32,7 +44,11 @@
           The rolltop makes it easy to<br>grab your gear and expand the Mile One<br>to hold more.
         </p>
       </div>
-      <img src="@/assets/images/parallax-expansive.jpg" />
+      <img srcset="
+        @/assets/images/desktop/parallax-expansive.jpg 1x,
+        @/assets/images/desktop/parallax-expansive@2x.jpg 2x"
+        alt="Accessible & Expansive"
+      />
     </div>
     <div :class="$style.launch">
       <h2>Support our launch and get early access deals.</h2>
