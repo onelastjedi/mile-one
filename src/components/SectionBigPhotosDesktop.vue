@@ -59,7 +59,7 @@
       </div>
     </div>
     <div :class="$style.bg">
-      <img src="@/assets/images/bg-lines.png" />
+      <img src="@/assets/images/bg/bg-lines.png" />
     </div>
   </div>
 </template>

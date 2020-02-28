@@ -28,7 +28,7 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    background-image: url('../assets/images/rW74RT0.jpg');
+    background-image: url('../assets/images/bg/car-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
