@@ -27,14 +27,14 @@
       </div>
       <div class="scroll">
         <p>Scroll for features</p>
-        <svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="move-up-down" width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292892 2.20711L1.70711 0.792892L15 14.0858L28.2929 0.792892L29.7071 2.20711L15 16.9142L0.292892 2.20711Z" fill="#D08938"/>
         </svg>
       </div>
     </div>
     <div class="column images">
       <img src="@/assets/images/kickstarter-logo-desktop-2x.png"
-        alt="Kickstarter" class="kickstarter-logo" />
+        alt="Kickstarter" class="kickstarter-logo pulsate-fwd" />
       <img srcset="
         @/assets/images/desktop/pictures-4-main.jpg 1x,
         @/assets/images/desktop/pictures-4-main@2x.jpg 2x"
@@ -55,6 +55,8 @@ export default {
 </script>
 
 <style lang="scss">
+  @import "@/styles/animations";
+
   .header-d {
     color: #fff;
     display: grid;
