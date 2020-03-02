@@ -36,10 +36,11 @@
       <img src="@/assets/images/kickstarter-logo-desktop-2x.png"
         alt="Kickstarter" class="kickstarter-logo pulsate-fwd" />
       <img srcset="
-        @/assets/images/desktop/pictures-4-main.jpg 1x,
-        @/assets/images/desktop/pictures-4-main@2x.jpg 2x"
+        @/assets/images/desktop/pictures-1-main.jpg 1x,
+        @/assets/images/desktop/pictures-1-main@2x.jpg 2x"
         alt="A minimalist travel bag"
       />
+      <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
     </div>
 
   </div>
@@ -94,6 +95,14 @@ export default {
         position: absolute;
         width: 130px;
         height: 125px;
+      }
+
+      .dyneema-logo {
+        width: 91px;
+        height: 86px;
+        bottom: 20px;
+        left: 40px;
+        position: absolute;
       }
 
       img {

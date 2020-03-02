@@ -9,8 +9,8 @@
       </div>
     </div>
     <img class="fullwidth"
-      srcset="@/assets/images/mobile/pictures-4-main.jpg 1x,
-              @/assets/images/mobile/pictures-4-main@2x.jpg 2x"
+      srcset="@/assets/images/mobile/pictures-1-main.jpg 1x,
+              @/assets/images/mobile/pictures-1-main@2x.jpg 2x"
       alt="A minimalist travel bag"
     />
     <div class="features">
