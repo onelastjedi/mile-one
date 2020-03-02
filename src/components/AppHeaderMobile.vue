@@ -8,11 +8,10 @@
         A minimalist travel bag made from ultra strong Dyneema® fabric.
       </div>
     </div>
-    <img class="fullwidth"
-      srcset="@/assets/images/mobile/pictures-4-main.jpg 1x,
-              @/assets/images/mobile/pictures-4-main@2x.jpg 2x"
-      alt="A minimalist travel bag"
-    />
+    <video controls width="100%" poster="@/assets/images/desktop/video-poster-desktop.jpg">
+      <source src="https://s3.eu-central-1.amazonaws.com/onelastjedi.com/video/4K-Black-Mile-V4cc.mp4" type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+    </video>
     <div class="features">
       <h3>Features:</h3>
       <ul class="list">

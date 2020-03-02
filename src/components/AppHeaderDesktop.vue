@@ -35,11 +35,11 @@
     <div class="column images">
       <img src="@/assets/images/kickstarter-logo-desktop-2x.png"
         alt="Kickstarter" class="kickstarter-logo pulsate-fwd" />
-      <img srcset="
-        @/assets/images/desktop/pictures-4-main.jpg 1x,
-        @/assets/images/desktop/pictures-4-main@2x.jpg 2x"
-        alt="A minimalist travel bag"
-      />
+      <video controls width="100%" poster="@/assets/images/desktop/video-poster-desktop.jpg">
+        <source src="https://s3.eu-central-1.amazonaws.com/onelastjedi.com/video/4K-Black-Mile-V4cc.mp4" type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <img class="dyneema-logo" src="@/assets/images/dyneema-logo-transparent-white-2x.png" />
     </div>
 
   </div>
@@ -83,17 +83,30 @@ export default {
       height: 85px;
     }
 
+    video {
+      outline: none;
+    }
+
     .images {
+      padding: 20px 0;
       position: relative;
-      // display: grid;
-      // grid-template-columns: 50% 50%;
+      display: grid;
+      align-items: center;
+      grid-template-rows: auto 1fr auto;
+
+      .dyneema-logo {
+        width: 91px;
+        height: 86px;
+        justify-self: end;
+        margin-right: 50px;
+        margin-bottom: 30px;
+      }
 
       .kickstarter-logo {
-        top: 20px;
-        left: 30px;
-        position: absolute;
         width: 130px;
         height: 125px;
+        justify-self: end;
+        margin-right: 50px;
       }
 
       img {
