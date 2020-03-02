@@ -98,6 +98,16 @@
       padding: 0 40px;
       display: inline-block;
       margin: 0 0 20px 0;
+
+      img {
+        transition: all .14s ease-out;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.05);
+        }
+      }
     }
 
     figcaption {
