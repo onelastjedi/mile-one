@@ -23,6 +23,7 @@
 
 <style lang="scss">
   .footer {
+    z-index: 1;
     display: grid;
     grid-row-start: 2;
     grid-row-end: 3;

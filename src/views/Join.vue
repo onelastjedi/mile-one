@@ -1,5 +1,8 @@
 <template>
   <div class="join">
+    <div class="bg">
+      <img src="@/assets/images/bg/car-bg-big-01.jpg" />
+    </div>
     <div class="join__box">
       <h1>Thanks for your support!</h1>
       <p>Join our facebook group for the latest updates on our launch.</p>
@@ -24,14 +27,44 @@
   $desktop: "(min-width: 768px)";
   $mobile: "(max-width: 768px)";
 
+  @keyframes move-bg {
+    from {
+     transform: translateY(0%);
+   }
+   to {
+     transform: translateY(10%);
+   }
+  }
+
+  .bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      animation-name: move-bg;
+      animation-duration: 30s;
+      animation-timing-function: linear;
+      transform: translateY(10%);
+      // animation-iteration-count: 1;
+      // background-image: url('../assets/images/bg/car-bg-big.jpg');
+      // background-size: cover;
+      // background-repeat: no-repeat;
+      // background-position-x: center;
+      // background-position-y: 100%;
+    }
+  }
+
   .join {
     display: grid;
     align-items: center;
     justify-items: center;
-    background-image: url('../assets/images/bg/car-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 
     h1 {
       font-size: 24px;
@@ -56,6 +89,7 @@
     }
 
     &__box {
+      z-index: 1;
       width: 100%;
       max-width: 596px;;
       border-radius: 9px;
