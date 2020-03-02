@@ -36,35 +36,35 @@
    }
   }
 
-  .bg {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 0;
-    overflow: hidden;
-
-    img {
-      position: absolute;
-      bottom: 0;
-      animation-name: move-bg;
-      animation-duration: 30s;
-      animation-timing-function: linear;
-      transform: translateY(10%);
-      // animation-iteration-count: 1;
-      // background-image: url('../assets/images/bg/car-bg-big.jpg');
-      // background-size: cover;
-      // background-repeat: no-repeat;
-      // background-position-x: center;
-      // background-position-y: 100%;
-    }
-  }
-
   .join {
     display: grid;
     align-items: center;
     justify-items: center;
+
+    .bg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 0;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        animation-name: move-bg;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        transform: translateY(10%);
+        // animation-iteration-count: 1;
+        // background-image: url('../assets/images/bg/car-bg-big.jpg');
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position-x: center;
+        // background-position-y: 100%;
+      }
+    }
 
     h1 {
       font-size: 24px;
