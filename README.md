@@ -1,24 +1,14 @@
-# mile-one
+# Introducing the Mile One 
+A minimalist travel bag made from ultra strong Dyneema® fabric. 
 
-## Project setup
-```
-yarn install
-```
+![Mile One](https://blackmile.co/img/pictures-4-main@2x.58aa7b2d.jpg)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Features:
+* 3 Ways to Carry
+* Dyneema® fabric
+* Waterproof zippers
+* Petzl carabiners
+* Minimalist design
+* Clamshell feature
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Support our launch and get early access deals: https://blackmile.co
