@@ -1,6 +1,10 @@
 <template>
   <div :class="$style.section">
-    <div :class="[$style.box, $style.b1]">
+    <div :class="[$style.box, $style.b1]"
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-duration="500"
+      data-aos-easing="ease-out">
       <div :class="$style.text">
         <h1>Designed for<br>One Bag Travel</h1>
         <p>A minimalist travel bag made from<br>ultra strong Dyneema® fabric.</p>
@@ -11,7 +15,11 @@
         alt="Designed for One Bag Travel"
       />
     </div>
-    <div :class="[$style.box, $style.b2]">
+    <div :class="[$style.box, $style.b2]"
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-duration="500"
+      data-aos-easing="ease-out">
       <div :class="$style.text">
         <h1>Dyneema®<br>Fabric</h1>
         <p>
@@ -24,7 +32,11 @@
         alt="Dyneema® Fabric"
       />
     </div>
-    <div :class="[$style.box, $style.b3]">
+    <div :class="[$style.box, $style.b3]"
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-duration="500"
+      data-aos-easing="ease-out">
       <div :class="$style.text">
         <h1>Rugged &<br>Handsome</h1>
         <p>
@@ -37,7 +49,11 @@
         alt="Rugged & Handsome"
       />
     </div>
-    <div :class="[$style.box, $style.b4]">
+    <div :class="[$style.box, $style.b4]"
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-duration="500"
+      data-aos-easing="ease-out">
       <div :class="$style.text">
         <h1>Accessible<br>& Expansive</h1>
         <p>
