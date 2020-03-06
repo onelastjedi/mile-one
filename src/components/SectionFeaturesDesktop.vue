@@ -30,7 +30,7 @@
           "
           alt="Shoulder Bag"
         />
-        <figcaption>Shoulder Bag</figcaption>
+        <figcaption>Over the Shoulder</figcaption>
       </figure>
     </div>
     <div :class="$style.row">
@@ -43,7 +43,7 @@
           "
           alt="Minimal design"
         />
-        <figcaption>Minimal design</figcaption>
+        <figcaption>Discreet</figcaption>
       </figure>
       <figure>
         <img

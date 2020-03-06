@@ -68,6 +68,7 @@
         display: block;
         padding-left: 10px;
         outline: none;
+        border: none;
       }
 
       i {

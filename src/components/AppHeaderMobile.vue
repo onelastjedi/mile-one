@@ -13,6 +13,8 @@
         <li><b>+</b>Minimalist design</li>
         <li><b>+</b>Waterproof zippers</li>
         <li><b>+</b>Clamshell opening</li>
+        <li><b>+</b>Rolltop functionality</li>
+        <li><b>+</b>Extreme durability</li>
       </ul>
     </div>
     <img class="fullwidth"
@@ -88,6 +90,7 @@
 
     .features {
       padding: 5px 20px 10px;
+      max-width: 540px;
 
       h3 {
         font-family: 'Avenir Next', sans-serif !important;
@@ -154,6 +157,7 @@
         display: block;
         padding-left: 10px;
         outline: none;
+        border: none;
       }
 
       i {
