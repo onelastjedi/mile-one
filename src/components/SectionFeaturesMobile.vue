@@ -20,7 +20,7 @@
           "
           alt="Shoulder Pack"
         />
-        <figcaption>Shoulder Pack</figcaption>
+        <figcaption>Over the Shoulder</figcaption>
       </figure>
       <figure>
         <img
@@ -43,7 +43,7 @@
           "
           alt="Minimal Design"
         />
-        <figcaption>Minimal Design</figcaption>
+        <figcaption>Discreet</figcaption>
       </figure>
       <figure>
         <img
