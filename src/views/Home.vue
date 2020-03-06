@@ -11,8 +11,10 @@
       <preface-mobile />
       <section-big-photos-mobile-first />
       <section-features-mobile />
+      <support-launch />
       <section-big-photos-mobile-second />
-      <section-join-waitlist-mobile />
+      <!-- <section-join-waitlist-mobile /> -->
+      <support-launch />
       <section-square-photos-mobile />
     </div>
   </div>
@@ -23,9 +25,10 @@
 import AppHeaderMobile from '@/components/AppHeaderMobile'
 import PrefaceMobile from '@/components/PrefaceMobile'
 import SectionFeaturesMobile from '@/components/SectionFeaturesMobile'
+import SupportLaunch from '@/components/SupportLaunch'
 import SectionBigPhotosMobileFirst from '@/components/SectionBigPhotosMobileFirst'
 import SectionBigPhotosMobileSecond from '@/components/SectionBigPhotosMobileSecond'
-import SectionJoinWaitlistMobile from '@/components/SectionJoinWaitlistMobile'
+// import SectionJoinWaitlistMobile from '@/components/SectionJoinWaitlistMobile'
 import SectionSquarePhotosMobile from '@/components/SectionSquarePhotosMobile'
 // Desktop components
 import AppHeaderDesktop from '@/components/AppHeaderDesktop'
@@ -37,9 +40,10 @@ export default {
     AppHeaderMobile,
     PrefaceMobile,
     SectionFeaturesMobile,
+    SupportLaunch,
     SectionBigPhotosMobileFirst,
     SectionBigPhotosMobileSecond,
-    SectionJoinWaitlistMobile,
+    // SectionJoinWaitlistMobile,
     SectionSquarePhotosMobile,
     AppHeaderDesktop,
     SectionFeaturesDesktop,

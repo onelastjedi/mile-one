@@ -1,25 +1,6 @@
-<template functional>
-  <div class="header-m">
-    <div class="padded-20">
-      <img class="blackmile-logo-mobile" alt="Blackmile" src="@/assets/images/blackmile-logo.svg" />
-      <img class="kickstarter-logo-mobile" alt="Kickstarter" src="@/assets/images/kickstarter-logo-transparent-2x.png" />
-      <h1>Join the Packing Light<br>Revolution</h1>
-    </div>
-    <div class="features">
-      <ul class="list">
-        <li><b>+</b>Dyneema® fabric</li>
-        <li><b>+</b>Petzl carabiners</li>
-        <li><b>+</b>3 Ways to Carry</li>
-        <li><b>+</b>Minimalist design</li>
-        <li><b>+</b>Waterproof zippers</li>
-        <li><b>+</b>Clamshell opening</li>
-      </ul>
-    </div>
-    <img class="fullwidth"
-      srcset="@/assets/images/mobile/header-2-bags.png 1x,
-              @/assets/images/mobile/header-2-bags@2x.png 2x"
-      alt="A minimalist travel bag"
-    />
+<template>
+  <div class="support-launch">
+    <h1>Support our May 2020 launch for…</h1>
     <div class="signup">
       <div class="input">
         <svg width="22" height="15" viewBox="0 0 22 15" xmlns="http://www.w3.org/2000/svg">
@@ -33,88 +14,20 @@
         Your information is safe and wont be shared with any third party.
       </div>
     </div>
-    <div class="descr">
-      A minimalist travel bag made from<br>ultra strong Dyneema® fabric.
-    </div>
   </div>
 </template>
 
 <style lang="scss">
-  .header-m {
-    color: #fff;
-    position: relative;
-    background-color: #32312F;
+  .support-launch {
+    background-color: #000000;
+    padding: 20px 0;
+    color: white;
 
     h1 {
-      font-size: 6.3vw;
-      line-height: 1.5;
-      margin: 10px 0 5px;
-      color: var(--main-font-color)
-    }
-
-    .padded-20 {
-      padding: 15px 20px 0;
-    }
-
-    .fullwidth {
-      margin-top: 10px;
-      width: 100%;
-    }
-
-    .blackmile-logo-mobile {
-      width: 120px;
-      height: 53px;
-    }
-
-    .kickstarter-logo-mobile {
-      width: 66px;
-      height: 64px;
-      position: absolute;
-      right: 20px;
-    }
-
-    .dyneema-logo-mobile {
-      width: 52px;
-      height: 49px;
-    }
-
-    .descr {
-      padding: 20px 20px 30px;
-      font-size: 18px;
       text-align: center;
+      font-size: 26px;
       line-height: 1.5;
-      color: var(--secondary-font-color);
-    }
-
-    .features {
-      padding: 5px 20px 10px;
-
-      h3 {
-        font-family: 'Avenir Next', sans-serif !important;
-        margin: 0 0 10px 0;
-        font-size: 16px;
-        text-transform: uppercase;
-      }
-
-      b {
-        color: var(--secondary-font-color);
-        margin-right: 7px;
-      }
-
-      .list {
-        line-height: 1.9;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(43%, 1fr));
-        grid-column-gap: 7%;
-        font-size: 14px;
-
-        li {
-          white-space: nowrap;
-        }
-      }
+      margin-top: 0;
     }
 
     .signup {
@@ -130,6 +43,7 @@
         align-items: center;
         border-radius: 4px;
         padding: 0 15px;
+        border: 1px solid #979797;
       }
 
       button {
