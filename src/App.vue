@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style lang="scss">
+:root {
+  --main-font-color: #00CD77;
+  --secondary-font-color: #EDD575;
+}
 @font-face {
   font-family: 'Kulturista';
   src: url('./assets/fonts/Kulturista-Regular.woff') format('woff');
