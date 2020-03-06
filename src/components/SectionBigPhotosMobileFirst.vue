@@ -9,7 +9,7 @@
         alt="Dyneema® Fabric" />
       <div class="caption">
         <h3>Dyneema® Fabric</h3>
-        <p>Made from a revolutionary lightweight fabric that<br>has a tensile strength 15x’s stonger than steel.</p>
+        <p>Made from a revolutionary material that has 15x’s<br>the tensile strength of steel.</p>
       </div>
     </div>
     <div class="image" key="02">
@@ -29,6 +29,16 @@
         alt="Extreme Durability" />
       <div class="caption">
         <h3>Extreme Durability</h3>
+        <p>Used in environments where there is no compromise on performance, Dyneema® fabric is ultra lightweight, weatherproof and rip-proof.</p>
+      </div>
+    </div>
+    <div class="image" key="04">
+      <img srcset="
+        @/assets/images/mobile/rolltop-functionality.jpg 1x,
+        @/assets/images/mobile/rolltop-functionality@2x.jpg 2x"
+        alt="Rolltop Functionality" />
+      <div class="caption">
+        <h3>Rolltop Functionality</h3>
         <p>Used in environments where there is no compromise on performance, Dyneema® fabric is ultra lightweight, weatherproof and rip-proof.</p>
       </div>
     </div>
