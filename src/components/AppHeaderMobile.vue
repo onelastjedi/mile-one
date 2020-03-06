@@ -1,10 +1,10 @@
 <template functional>
   <div class="header-m">
-    <div class="padded-20">
+    <div class="logos padded-20">
       <img class="blackmile-logo-mobile" alt="Blackmile" src="@/assets/images/blackmile-logo.svg" />
       <img class="kickstarter-logo-mobile" alt="Kickstarter" src="@/assets/images/kickstarter-logo-transparent-2x.png" />
-      <h1>Join the Packing Light<br>Revolution</h1>
     </div>
+    <h1>Join the Packing Light<br>Revolution</h1>
     <div class="features">
       <ul class="list">
         <li><b>+</b>Dyneema® fabric</li>
@@ -45,17 +45,23 @@
   .header-m {
     color: #fff;
     position: relative;
-    background-color: #32312F;
+    background-color: #E9E1DE;
+    color: #1A1A1A;
 
     h1 {
       font-size: 6.3vw;
       line-height: 1.5;
       margin: 10px 0 5px;
-      color: var(--main-font-color)
+      color: #1A1A1A;
+      padding: 0 20px;
+    }
+
+    .logos {
+      background-color: #262626;
     }
 
     .padded-20 {
-      padding: 15px 20px 0;
+      padding: 15px 20px 10px;
     }
 
     .fullwidth {
@@ -69,8 +75,8 @@
     }
 
     .kickstarter-logo-mobile {
-      width: 66px;
-      height: 64px;
+      width: 85px;
+      height: 82px;
       position: absolute;
       right: 20px;
     }
@@ -85,7 +91,7 @@
       font-size: 18px;
       text-align: center;
       line-height: 1.5;
-      color: var(--secondary-font-color);
+      color: #252525;
     }
 
     .features {
@@ -100,7 +106,7 @@
       }
 
       b {
-        color: var(--secondary-font-color);
+        color: var(--main-font-color);
         margin-right: 7px;
       }
 
@@ -133,6 +139,7 @@
         align-items: center;
         border-radius: 4px;
         padding: 0 15px;
+        border: 1px solid var(--main-font-color);
       }
 
       button {
@@ -172,7 +179,7 @@
         font-size: 10px;
 
         svg {
-          fill: #fff;
+          fill: #252525;
           width: 9px;
         }
       }
