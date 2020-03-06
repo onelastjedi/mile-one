@@ -8,6 +8,7 @@
     </div>
     <div class="mobile">
       <app-header-mobile />
+      <preface-mobile />
       <section-big-photos-mobile-first />
       <section-features-mobile />
       <section-big-photos-mobile-second />
@@ -20,6 +21,7 @@
 <script>
 // Mobile components
 import AppHeaderMobile from '@/components/AppHeaderMobile'
+import PrefaceMobile from '@/components/PrefaceMobile'
 import SectionFeaturesMobile from '@/components/SectionFeaturesMobile'
 import SectionBigPhotosMobileFirst from '@/components/SectionBigPhotosMobileFirst'
 import SectionBigPhotosMobileSecond from '@/components/SectionBigPhotosMobileSecond'
@@ -33,6 +35,7 @@ import SectionSquarePhotosDesktop from '@/components/SectionSquarePhotosDesktop'
 export default {
   components: {
     AppHeaderMobile,
+    PrefaceMobile,
     SectionFeaturesMobile,
     SectionBigPhotosMobileFirst,
     SectionBigPhotosMobileSecond,
