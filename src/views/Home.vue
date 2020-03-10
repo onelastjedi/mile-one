@@ -3,6 +3,7 @@
     <div class="desktop">
       <app-header-desktop />
       <preface-desktop />
+      <introduction-desktop />
       <section-features-desktop />
       <section-big-photos-desktop />
       <section-square-photos-desktop />
@@ -37,6 +38,7 @@ import SectionSquarePhotosMobile from '@/components/SectionSquarePhotosMobile'
 // Desktop components
 import AppHeaderDesktop from '@/components/AppHeaderDesktop'
 import PrefaceDesktop from '@/components/PrefaceDesktop'
+import IntroductionDesktop from '@/components/IntroductionDesktop'
 import SectionFeaturesDesktop from '@/components/SectionFeaturesDesktop'
 import SectionBigPhotosDesktop from '@/components/SectionBigPhotosDesktop'
 import SectionSquarePhotosDesktop from '@/components/SectionSquarePhotosDesktop'
@@ -52,6 +54,7 @@ export default {
     SectionSquarePhotosMobile,
     AppHeaderDesktop,
     PrefaceDesktop,
+    IntroductionDesktop,
     SectionFeaturesDesktop,
     SectionBigPhotosDesktop,
     SectionSquarePhotosDesktop
