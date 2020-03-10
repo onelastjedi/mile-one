@@ -2,8 +2,8 @@
   <div class="header-d">
     <div class="column images">
       <img srcset="
-        @/assets/images/desktop/header-2-bags.jpg 1x,
-        @/assets/images/desktop/header-2-bags@2x.jpg 2x"
+        @/assets/images/desktop/header-2-bags-light.jpg 1x,
+        @/assets/images/desktop/header-2-bags-light@2x.jpg 2x"
         alt="A minimalist travel bag"
       />
     </div>
@@ -52,32 +52,27 @@
 
 <style lang="scss">
   @import "@/styles/animations";
-
   .header-d {
     color: #fff;
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     background-color: #232323;
-
     h1 {
       margin: 15px 0;
       font-size: 46px;
       color: var(--main-font-color);
       white-space: nowrap;
     }
-
     .descr {
       line-height: 1.5;
       padding: 15px 0 30px;
       font-size: 20px;
     }
-
     .text {
       padding: 60px 40px 40px;
       max-width: 80%;
       position: relative;
     }
-
     .kickstarter-logo {
       top: 30px;
       right: 30px;
@@ -85,15 +80,12 @@
       width: 91px;
       height: 95px;
     }
-
     .blackmile-logo-mobile {
       width: 189px;
       height: 85px;
     }
-
     .images {
       position: relative;
-
       img {
         display: block;
         height: 100%;
@@ -102,22 +94,18 @@
         object-position: 50% 50%;
       }
     }
-
     .features {
       padding: 20px 0;
-
       h3 {
         font-family: 'Avenir Next', sans-serif !important;
         margin: 0 0 10px 0;
         font-size: 16px;
         text-transform: uppercase;
       }
-
       b {
         color: var(--secondary-font-color);
         margin-right: 7px;
       }
-
       .list {
         line-height: 1.9;
         margin: 0;
@@ -127,16 +115,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
-
         li {
           white-space: nowrap;
         }
       }
     }
-
     .signup {
       padding: 0;
-
       .input {
         display: block;
         width: 100%;
@@ -148,7 +133,6 @@
         border-radius: 4px;
         padding: 0 15px;
       }
-
       button {
         width: 100%;
         background-color: var(--main-font-color);
@@ -159,18 +143,10 @@
         margin-top: 10px;
         border-radius: 4px;
         outline: none;
-        cursor: pointer;
-        transition: background-color .2s ease-out;
-
-        &:hover {
-          background-color: #00ff95;
-        }
       }
-
       svg {
         fill: var(--main-font-color);
       }
-
       input[type=text] {
         border: none;
         font-size: 14px;
@@ -179,25 +155,21 @@
         padding-left: 10px;
         outline: none;
       }
-
       i {
         font-size: 3.5vw;
       }
-
       .disclaimer {
         display: grid;
         grid-template-columns: auto 1fr;
         grid-column-gap: 5px;
         align-items: center;
         font-size: 10px;
-
         svg {
           fill: #fff;
           width: 9px;
         }
       }
     }
-
     .scroll {
       line-height: 1.6;
       display: grid;

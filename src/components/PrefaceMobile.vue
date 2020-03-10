@@ -8,8 +8,8 @@
 
 <style lang="scss">
   .preface-mobile {
-    background-color: #E9E1DE;
-    color: #000000;
+    background-color: #262626;
+    color: #FFFFFF;
     font-size: 16px;
     padding: 25px 20px;
     text-align: center;

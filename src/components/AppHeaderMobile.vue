@@ -1,10 +1,10 @@
 <template functional>
   <div class="header-m">
-    <div class="padded-20">
+    <div class="logos padded-20">
       <img class="blackmile-logo-mobile" alt="Blackmile" src="@/assets/images/blackmile-logo.svg" />
       <img class="kickstarter-logo-mobile" alt="Kickstarter" src="@/assets/images/kickstarter-logo-transparent-2x.png" />
-      <h1>Join the Packing Light<br>Revolution</h1>
     </div>
+    <h1>Join the Packing Light<br>Revolution</h1>
     <div class="features">
       <ul class="list">
         <li><b>+</b>Dyneema® fabric</li>
@@ -45,66 +45,59 @@
   .header-m {
     color: #fff;
     position: relative;
-    background: #32312F;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(50,49,47,1) 40%, rgba(50,49,47,1) 100%);
-
+    background-color: #E9E1DE;
+    color: #1A1A1A;
     h1 {
       font-size: 6.3vw;
       line-height: 1.5;
       margin: 10px 0 5px;
-      color: var(--main-font-color)
+      color: #1A1A1A;
+      padding: 0 20px;
     }
-
+    .logos {
+      background-color: #262626;
+    }
     .padded-20 {
-      padding: 15px 20px 0;
+      padding: 15px 20px 10px;
     }
-
     .fullwidth {
       margin-top: 10px;
       width: 100%;
     }
-
     .blackmile-logo-mobile {
       width: 120px;
       height: 53px;
     }
-
     .kickstarter-logo-mobile {
-      width: 66px;
-      height: 64px;
+      width: 85px;
+      height: 82px;
       position: absolute;
       right: 20px;
     }
-
     .dyneema-logo-mobile {
       width: 52px;
       height: 49px;
     }
-
     .descr {
       padding: 20px 20px 30px;
       font-size: 18px;
       text-align: center;
       line-height: 1.5;
-      color: var(--secondary-font-color);
+      color: #252525;
     }
-
     .features {
       padding: 5px 20px 10px;
       max-width: 540px;
-
       h3 {
         font-family: 'Avenir Next', sans-serif !important;
         margin: 0 0 10px 0;
         font-size: 16px;
         text-transform: uppercase;
       }
-
       b {
-        color: var(--secondary-font-color);
+        color: var(--main-font-color);
         margin-right: 7px;
       }
-
       .list {
         line-height: 1.9;
         margin: 0;
@@ -114,16 +107,13 @@
         grid-template-columns: repeat(auto-fit, minmax(43%, 1fr));
         grid-column-gap: 7%;
         font-size: 14px;
-
         li {
           white-space: nowrap;
         }
       }
     }
-
     .signup {
       padding: 0 20px 0;
-
       .input {
         display: block;
         width: 100%;
@@ -134,8 +124,8 @@
         align-items: center;
         border-radius: 4px;
         padding: 0 15px;
+        border: 1px solid var(--main-font-color);
       }
-
       button {
         width: 100%;
         background-color: var(--main-font-color);
@@ -147,11 +137,9 @@
         border-radius: 4px;
         outline: none;
       }
-
       svg {
         fill: var(--main-font-color);
       }
-
       input[type=text] {
         font-size: 14px;
         width: 100%;
@@ -160,20 +148,17 @@
         outline: none;
         border: none;
       }
-
       i {
         font-size: 3.5vw;
       }
-
       .disclaimer {
         display: grid;
         grid-template-columns: auto 1fr;
         grid-column-gap: 5px;
         align-items: center;
         font-size: 10px;
-
         svg {
-          fill: #fff;
+          fill: #252525;
           width: 9px;
         }
       }
