@@ -11,10 +11,14 @@
       <preface-mobile />
       <section-big-photos-mobile-first />
       <section-features-mobile />
-      <support-launch />
+      <support-launch>
+        <h1>Launching on<br>Kickstarter in May 2020</h1>
+      </support-launch>
       <section-big-photos-mobile-second />
       <!-- <section-join-waitlist-mobile /> -->
-      <support-launch />
+      <support-launch>
+        <h1>Don’t miss your chance to access early-bird deals</h1>
+      </support-launch>
       <section-square-photos-mobile />
     </div>
   </div>

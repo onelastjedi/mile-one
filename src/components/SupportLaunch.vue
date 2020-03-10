@@ -1,6 +1,7 @@
 <template>
   <div class="support-launch">
-    <h1>Support our May 2020 launch for…</h1>
+    <slot></slot>
+    <!-- <h1>{{ header }}</h1> -->
     <div class="signup">
       <div class="input">
         <svg width="22" height="15" viewBox="0 0 22 15" xmlns="http://www.w3.org/2000/svg">
@@ -17,6 +18,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  props: {
+    header: String
+  }
+}
+</script>
+
 <style lang="scss">
   .support-launch {
     background-color: #000000;
@@ -28,6 +37,7 @@
       font-size: 26px;
       line-height: 1.5;
       margin-top: 0;
+      padding: 0 20px;
     }
 
     .signup {
@@ -49,7 +59,7 @@
       button {
         width: 100%;
         background-color: var(--main-font-color);
-        font-size: 16px;
+        font-size: 15px;
         border: none;
         font-weight: 600;
         height: 44px;
