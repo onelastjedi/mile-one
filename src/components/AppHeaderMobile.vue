@@ -45,7 +45,8 @@
   .header-m {
     color: #fff;
     position: relative;
-    background-color: #32312F;
+    background: #32312F;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(50,49,47,1) 40%, rgba(50,49,47,1) 100%);
 
     h1 {
       font-size: 6.3vw;
@@ -138,7 +139,7 @@
       button {
         width: 100%;
         background-color: var(--main-font-color);
-        font-size: 16px;
+        font-size: 15px;
         border: none;
         font-weight: 600;
         height: 44px;
