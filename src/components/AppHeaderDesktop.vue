@@ -143,7 +143,14 @@
         margin-top: 10px;
         border-radius: 4px;
         outline: none;
+        cursor: pointer;
+        transition: background-color .2s ease-out;
+
+        &:hover {
+          background-color: #00ff95;
+        }
       }
+
       svg {
         fill: var(--main-font-color);
       }
