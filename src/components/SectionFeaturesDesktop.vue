@@ -147,8 +147,8 @@
   .section {
     padding: 20px 0;
     text-align: center;
-    background-color: #4F4B49;
-    color: #fff;
+    background-color: #E9E1DE;
+    color: #262626;
 
     .row {
       margin-bottom: 50px;
