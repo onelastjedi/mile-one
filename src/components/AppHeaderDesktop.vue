@@ -152,7 +152,7 @@
       button {
         width: 100%;
         background-color: var(--main-font-color);
-        font-size: 16px;
+        font-size: 15px;
         border: none;
         font-weight: 600;
         height: 44px;
