@@ -1,5 +1,9 @@
 <template>
   <div :class="$style.section">
+    <div class="launch-1">
+      <h1>Launching on<br>Kickstarter in May 2020</h1>
+      <support-launch class="sp-input-1" />
+    </div>
     <div :class="[$style.box, $style.b1]"
       data-aos="fade-up"
       data-aos-once="true"
@@ -15,7 +19,7 @@
         alt="Designed for One Bag Travel"
       />
     </div>
-    <div :class="[$style.box, $style.b2]"
+    <!-- <div :class="[$style.box, $style.b2]"
       data-aos="fade-up"
       data-aos-once="true"
       data-aos-duration="500"
@@ -31,7 +35,7 @@
         @/assets/images/desktop/parallax-dyneema-fabric@2x.jpg 2x"
         alt="Dyneema® Fabric"
       />
-    </div>
+    </div> -->
     <div :class="[$style.box, $style.b3]"
       data-aos="fade-up"
       data-aos-once="true"
@@ -66,39 +70,54 @@
         alt="Accessible & Expansive"
       />
     </div>
-    <div :class="$style.launch">
-      <h2>Support our launch and get early access deals.</h2>
-      <w-input :class="$style.input" />
-      <div :class="$style.disclaimer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 10v-4c0-3.313-2.687-6-6-6s-6 2.687-6 6v4h-3v14h18v-14h-3zm-10 0v-4c0-2.206 1.794-4 4-4s4 1.794 4 4v4h-8z"/></svg>
-        Your information is safe and wont be shared with any third party.
-      </div>
-    </div>
-    <div :class="$style.bg">
-      <img src="@/assets/images/bg/bg-lines.png" />
+    <div class="launch-2">
+      <support-launch class="sp-input-2" />
+      <h1>Don’t miss your chance<br>to access early-bird<br>deals</h1>
     </div>
   </div>
 </template>
 
 <script>
-import WInput from '@/components/WaitListInput'
+import SupportLaunch from '@/components/SupportLaunch'
 export default {
   components: {
-    WInput
+    SupportLaunch
   }
 }
 </script>
 
+<style lang="scss">
+  .sp-input-1 {
+    max-width: 450px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .launch-2 {
+    white-space: nowrap;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: .8fr 1fr;
+    margin-top: 1500px;
+    grid-column-gap: 40px;
+  }
+
+  .sp-input-2 {
+    max-width: 500px;
+    width: 100%;
+    justify-self: right;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+</style>
+
 <style module lang="scss">
   .section {
-    height: 2000px;
-    padding: 20px 50px;
-    background-color: #4F4B49;
+    height: 2150px;
+    padding: 70px 70px 20px;
+    background-color: #000;
     color: #fff;
     position: relative;
-    // background-image: url('../assets/images/bg-lines.png');
-    // background-repeat: no-repeat;
-    // background-size: contain;
 
     h1 {
       margin: 0 0 15px;
@@ -135,14 +154,17 @@ export default {
   }
 
   .b1 {
+    margin-top: -70px;
+    right: 70px;
+
     .text{
-      top: 20%;
-      left: 88%;
+      top: 110%;
+      left: 0%;
     }
   }
 
   .b2 {
-    margin-top: 360px;
+    margin-top: 560px;
     right: 80px;
 
     .text{
@@ -152,22 +174,23 @@ export default {
   }
 
   .b3 {
-    margin-top: 600px;
+    margin-top: 370px;
     margin-left: 20px;
 
     .text{
-      bottom: 10%;
-      left: 80%;
+      bottom: 20%;
+      left: 110%;
     }
   }
 
   .b4 {
-    margin-top: 1250px;
+    margin-top: 1000px;
     right: 80px;
 
     .text{
-      bottom: 10%;
-      left: -25%;
+      text-align: right;
+      bottom: 0%;
+      right: 110%;
     }
   }
 
@@ -195,13 +218,5 @@ export default {
       width: 9px;
       height: 9px;
     }
-  }
-
-  .bg {
-    position: absolute;
-    top: -110px;
-    z-index: 0;
-    left: -6px;
-    width: 100%;
   }
 </style>

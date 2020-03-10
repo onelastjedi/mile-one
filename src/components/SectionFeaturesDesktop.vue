@@ -159,9 +159,11 @@
     }
 
     figure {
+      vertical-align: top;
       padding: 0 40px;
       display: inline-block;
       margin: 0 0 20px 0;
+      width: 270px;
 
       img {
         transition: all .14s ease-out;
