@@ -38,12 +38,12 @@
       <figure>
         <img
           srcset="
-            @/assets/images/desktop/feature-minimal-design.png 1x,
-            @/assets/images/desktop/feature-minimal-design@2x.png 2x
+            @/assets/images/desktop/feature-branding.png 1x,
+            @/assets/images/desktop/feature-branding@2x.png 2x
           "
-          alt="Minimal design"
+          alt="No Exterior Branding"
         />
-        <figcaption>Discreet</figcaption>
+        <figcaption>No Exterior Branding</figcaption>
       </figure>
       <figure>
         <img
@@ -51,9 +51,9 @@
             @/assets/images/desktop/feature-waterproof-zippers.png 1x,
             @/assets/images/desktop/feature-waterproof-zippers@2x.png 2x
           "
-          alt="Waterproof zippers"
+          alt="YKK® Waterproof Zippers"
         />
-        <figcaption>Waterproof zippers</figcaption>
+        <figcaption>YKK® Waterproof Zippers</figcaption>
       </figure>
       <figure>
         <img
@@ -61,19 +61,83 @@
             @/assets/images/desktop/feature-petzl-carabiners.png 1x,
             @/assets/images/desktop/feature-petzl-carabiners@2x.png 2x
           "
-          alt="Petzl carabiners"
+          alt="Petzl Carabiners"
         />
-        <figcaption>Petzl carabiners</figcaption>
+        <figcaption>Petzl Carabiners</figcaption>
       </figure>
       <figure>
         <img
           srcset="
-            @/assets/images/desktop/feature-handles-wear-gracefully.png 1x,
-            @/assets/images/desktop/feature-handles-wear-gracefully@2x.png 2x
+            @/assets/images/desktop/feaute-wear-gracefully.png 1x,
+            @/assets/images/desktop/feaute-wear-gracefully@2x.png 2x
           "
-          alt="Handles wear gracefully"
+          alt="Handles Wear Gracefully"
         />
-        <figcaption>Handles wear gracefully</figcaption>
+        <figcaption>Handles Wear Gracefully</figcaption>
+      </figure>
+    </div>
+    <div :class="$style.row">
+      <figure>
+        <img
+          srcset="
+            @/assets/images/desktop/feature-clamshell-opening.png 1x,
+            @/assets/images/desktop/feature-clamshell-opening@2x.png 2x
+          "
+          alt="Clamshell Opening"
+        />
+        <figcaption>Clamshell Opening</figcaption>
+      </figure>
+      <figure>
+        <img
+          srcset="
+            @/assets/images/desktop/feature-rolltop-opening.png 1x,
+            @/assets/images/desktop/feature-rolltop-opening@2x.png 2x
+          "
+          alt="Rolltop Opening"
+        />
+        <figcaption>Rolltop Opening</figcaption>
+      </figure>
+      <figure>
+        <img
+          srcset="
+            @/assets/images/desktop/feature-laptop-storage.png 1x,
+            @/assets/images/desktop/feature-laptop-storage@2x.png 2x
+          "
+          alt="Padded Laptop Storage"
+        />
+        <figcaption>Padded Laptop Storage</figcaption>
+      </figure>
+      <figure>
+        <img
+          srcset="
+            @/assets/images/desktop/featire-adjustable-straps.png 1x,
+            @/assets/images/desktop/featire-adjustable-straps@2x.png 2x
+          "
+          alt="Padded Adjustable Straps"
+        />
+        <figcaption>Padded Adjustable Straps</figcaption>
+      </figure>
+    </div>
+    <div :class="$style.row">
+      <figure>
+        <img
+          srcset="
+            @/assets/images/desktop/feature-passport-pocket.png 1x,
+            @/assets/images/desktop/feature-passport-pocket@2x.png 2x
+          "
+          alt="Exterior Passport Pocket"
+        />
+        <figcaption>Exterior Passport Pocket</figcaption>
+      </figure>
+      <figure>
+        <img
+          srcset="
+            @/assets/images/desktop/feature-webbing-handles.png 1x,
+            @/assets/images/desktop/feature-webbing-handles@2x.png 2x
+          "
+          alt="Biothane Webbing Handles"
+        />
+        <figcaption>Biothane Webbing Handles</figcaption>
       </figure>
     </div>
   </div>
