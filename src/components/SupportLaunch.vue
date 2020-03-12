@@ -1,20 +1,19 @@
 <template>
   <div class="support-launch">
     <slot></slot>
-    <!-- <h1>{{ header }}</h1> -->
-    <div class="signup">
+    <form class="signup" @submit.prevent="onSubmit">
       <div class="input">
         <svg width="22" height="15" viewBox="0 0 22 15" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9841 1.6734C18.7639 3.67454 16.5769 5.64554 14.3827 7.62334C16.5864 9.53568 18.7696 11.4303 20.9841 13.352V1.6734ZM1.01062 13.3613C3.23288 11.4328 5.42101 9.53376 7.62303 7.62289C5.41672 5.63446 3.22815 3.66198 1.01062 1.6635V13.3613ZM1.83233 13.9759H20.1687C17.9633 12.0677 15.7936 10.19 13.6229 8.3118C13.5749 8.35406 13.543 8.38139 13.5118 8.40946C12.8062 9.04312 12.1023 9.67855 11.3947 10.3098C11.1064 10.5671 10.8901 10.5616 10.6014 10.3039C10.4336 10.1541 10.2677 10.0027 10.1004 9.85244C9.53149 9.3417 8.96226 8.83111 8.38062 8.30914C6.20357 10.1931 4.03391 12.0708 1.83233 13.9759ZM11.0062 9.31969C14.0713 6.55237 17.1272 3.79362 20.2022 1.01743H1.79909C4.88694 3.80174 7.94362 6.55798 11.0062 9.31969ZM10.9892 15C7.63736 15 4.28536 15 0.933503 15C0.285972 15 0.000249306 14.7131 0.000249306 14.0599C-8.3102e-05 9.68195 -8.3102e-05 5.30396 0.000249306 0.926128C0.000249306 0.288777 0.289223 9.25345e-05 0.927002 9.25345e-05C7.64489 -6.11918e-05 14.3626 -6.11918e-05 21.0804 0.000388015C21.7189 0.000388015 22 0.285231 22 0.929821C22 5.3078 22 9.68549 22 14.0635C22 14.719 21.7195 15 21.0659 15H10.9892Z" />
         </svg>
-        <input type="text" placeholder="Email address"/>
+        <input type="text" v-model="email" placeholder="Email address"/>
       </div>
-      <button>GET EARLY ACCESS TO SAVE 30% OFF</button>
+      <button type="submit">GET EARLY ACCESS TO SAVE 30% OFF</button>
       <div class="disclaimer">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 10v-4c0-3.313-2.687-6-6-6s-6 2.687-6 6v4h-3v14h18v-14h-3zm-10 0v-4c0-2.206 1.794-4 4-4s4 1.794 4 4v4h-8z"/></svg>
         Your information is safe and wont be shared with any third party.
       </div>
-    </div>
+    </form>
   </div>
 </template>
 
@@ -22,6 +21,24 @@
 export default {
   props: {
     header: String
+  },
+  data: function () {
+    return {
+      email: ''
+    }
+  },
+  methods: {
+    onSubmit () {
+      if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.email)) {
+        fetch('/api/subscribe', {
+          method: 'POST',
+          cache: 'no-cache',
+          body: JSON.stringify({ email: this.email })
+        })
+
+        this.$router.push('/reserve')
+      }
+    }
   }
 }
 </script>
