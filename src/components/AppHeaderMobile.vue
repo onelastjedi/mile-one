@@ -51,14 +51,13 @@ export default {
   methods: {
     onSubmit () {
       if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.email)) {
-        console.log(this.email)
-        // fetch('/api/subscribe', {
-        //   method: 'POST',
-        //   cache: 'no-cache',
-        //   body: JSON.stringify({ email: this.email })
-        // })
+        fetch('/api/subscribe', {
+          method: 'POST',
+          cache: 'no-cache',
+          body: JSON.stringify({ email: this.email })
+        })
 
-        // this.$router.push('/reserve')
+        this.$router.push('/reserve')
       }
     }
   }
