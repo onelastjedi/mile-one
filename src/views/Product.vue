@@ -55,7 +55,7 @@
 
         <!-- <img src="@/assets/images/mobile/product/05.png" class="product--fw-img" /> -->
         <video width="100%" controls preload="true" poster="@/assets/images/mobile/product/05.png">
-          <source src="@/assets/video/blackmile_backpack.mp4" type="video/mp4">
+          <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_backpack.mp4" type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
         </video>
 
@@ -67,7 +67,7 @@
 
         <!-- <img src="@/assets/images/mobile/product/11.png" class="product--fw-img" /> -->
         <video width="100%" controls preload="true" poster="@/assets/images/mobile/product/11.png">
-          <source src="@/assets/video/blackmile_shoulder.mp4" type="video/mp4">
+          <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_shoulder.mp4" type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
         </video>
 
@@ -84,7 +84,7 @@
 
         <!-- <img src="@/assets/images/mobile/product/17.png" class="product--fw-img" /> -->
         <video width="100%" controls preload="true" poster="@/assets/images/mobile/product/17.png">
-          <source src="@/assets/video/blackmile_closing.mp4" type="video/mp4">
+          <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_closing.mp4" type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
         </video>
 
@@ -96,7 +96,7 @@
 
         <!-- <img src="@/assets/images/mobile/product/23.png" class="product--fw-img" /> -->
         <video width="100%" controls preload="true" poster="@/assets/images/mobile/product/23.png">
-          <source src="@/assets/video/blackmile_unpack.mp4" type="video/mp4">
+          <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_unpack.mp4" type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
         </video>
 
@@ -187,7 +187,7 @@
 
           <!-- <img src="@/assets/images/desktop/product/01.png" class="product--fw-img" /> -->
           <video width="100%" controls preload="true" poster="@/assets/images/desktop/product/01.png">
-            <source src="@/assets/video/blackmile_backpack.mp4" type="video/mp4">
+            <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_backpack.mp4" type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
           </video>
 
@@ -199,7 +199,7 @@
 
           <!-- <img src="@/assets/images/desktop/product/07.png" class="product--fw-img" /> -->
           <video width="100%" controls preload="true" poster="@/assets/images/desktop/product/07.png">
-            <source src="@/assets/video/blackmile_shoulder.mp4" type="video/mp4">
+            <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_shoulder.mp4" type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
           </video>
 
@@ -211,7 +211,7 @@
 
           <!-- <img src="@/assets/images/desktop/product/13.png" class="product--fw-img" /> -->
           <video width="100%" controls preload="true" poster="@/assets/images/desktop/product/13.png">
-            <source src="@/assets/video/blackmile_closing.mp4" type="video/mp4">
+            <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_closing.mp4" type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
           </video>
 
@@ -223,7 +223,7 @@
 
           <!-- <img src="@/assets/images/desktop/product/19.png" class="product--fw-img" /> -->
           <video width="100%" controls preload="true" poster="@/assets/images/desktop/product/19.png">
-            <source src="@/assets/video/blackmile_unpack.mp4" type="video/mp4">
+            <source src="https://blackmile-video-storage.s3-us-west-2.amazonaws.com/blackmile_unpack.mp4" type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
           </video>
         </div>
