@@ -48,6 +48,9 @@ export default {
 </script>
 
 <style lang="scss">
+  $desktop: "(min-width: 768px)";
+  $mobile: "(max-width: 768px)";
+
   .player {
     cursor: pointer;
     width: 100%;
@@ -77,6 +80,10 @@ export default {
       position: relative;
       color: white;
       margin-bottom: 20px;
+
+      @media #{$desktop} {
+        font-size: 3vw;
+      }
     }
 
     &--button {
