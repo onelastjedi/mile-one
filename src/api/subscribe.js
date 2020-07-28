@@ -10,8 +10,8 @@ export default (req, res) => {
   fetch(MAILCHIMP_API_URL, {
     method: 'post',
     body: JSON.stringify(body),
-    headers: { 'Authorization': `Basic ${MAILCHIMP_API_KEY}` },
+    headers: { Authorization: `Basic ${MAILCHIMP_API_KEY}` }
   })
-  .then(response => response.json())
-  .then(json => res.send(json));
+    .then(response => response.json())
+    .then(json => res.send(json))
 }
