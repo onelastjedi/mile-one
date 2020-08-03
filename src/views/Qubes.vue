@@ -128,6 +128,88 @@
         </div>
       </div>
     </div>
+
+    <div class="qubes desktop">
+      <div class="qubes--content">
+        <div class="qubes--container">
+          <div class="qubes--grid">
+            <div class="qubes--column">
+              <img class="qubes--fw-img"
+                src="@/assets/images/desktop/qubes/01.png" />
+            </div>
+
+            <div class="qubes--column">
+              <h4>Packing Cubes <span>$24.99 / $14.99</span></h4>
+
+              <p>Designed to fit perfectly with the Mile One, our packing cubes make it easy to stay organized on the road. Available in large and small sizes, each cube features a breathable mesh panel secured with a YKK zipper closure to keep your gear fresh and keep pests out.</p>
+
+              <div class="qubes--quantity">
+                <div class="qubes--quantity--descr">
+                  Large Packing Cube — $24.99 each
+                  <span>15 x 10 x 4"  / 38 x 25 x 10 cm</span>
+                </div>
+
+                <div class="qubes--quantity--controls">
+                  <button @click="decrease('large')">-</button>
+                  <span>{{ large }}</span>
+                  <button @click="increase('large')">+</button>
+                </div>
+
+                <div class="qubes--quantity--descr">
+                  Small Packing Cube — $14.99 each
+                  <span>15 x 10 x 4"  / 38 x 25 x 10 cm</span>
+                </div>
+
+                <div class="qubes--quantity--controls">
+                  <button @click="decrease('small')">-</button>
+                  <span>{{ small }}</span>
+                  <button @click="increase('small')">+</button>
+                </div>
+
+                <template v-if="nothingSelected">
+                  Must select quantity first.
+                </template>
+              </div>
+
+              <button class="qubes--btn"
+                :disabled="nothingSelected">Add to cart</button>
+
+              <h5>Features</h5>
+
+              <ul>
+                <li>Lightweight construction</li>
+                <li>Fits the Mile One perfectly</li>
+                <li>Compatible with other packs and bags</li>
+                <li>Water resistant nylon to keep your clothes and gear dry</li>
+                <li>Breathable mesh panel to keep clothes fresh and pests out</li>
+                <li>Rolls up or lays flat for minimal storage space</li>
+                <li>Premium YKK zipper closures</li>
+                <li>Grab handles for easy packing and unpacking</li>
+              </ul>
+
+              <h5>Materials</h5>
+
+              <ul>
+                <li>2.2 oz HEX70 XL (70 denier nylon)</li>
+                <li>Nylon mesh</li>
+                <li>YKK zippers</li>
+              </ul>
+            </div>
+          </div>
+
+          <img class="qubes--fw-img"
+            src="@/assets/images/desktop/qubes/02.png" />
+          <img class="qubes--fw-img"
+            src="@/assets/images/desktop/qubes/03.png" />
+          <img class="qubes--fw-img"
+            src="@/assets/images/desktop/qubes/04.png" />
+          <img class="qubes--fw-img"
+            src="@/assets/images/desktop/qubes/05.png" />
+          <img class="qubes--fw-img"
+            src="@/assets/images/desktop/qubes/06.png" />
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -272,6 +354,10 @@ export default {
         letter-spacing: 1.14px;
         font-size: 23px;
         margin-bottom: 10px;
+
+        @media #{$desktop} {
+          margin-top: 20px;
+        }
       }
 
       p {
@@ -290,6 +376,10 @@ export default {
       grid-template-columns: 1fr auto;
       grid-row-gap: 20px;
       font-size: 14px;
+
+       @media #{$desktop} {
+        margin: 20px 0;
+      }
 
       &--descr {
         font-weight: bold;
@@ -330,6 +420,14 @@ export default {
           line-height: 28px;
         }
       }
+    }
+
+    &--grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      grid-column-gap: 30px;
+      font-size: 14px;
+      min-width: 1000px;
     }
   }
 </style>
