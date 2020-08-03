@@ -84,7 +84,7 @@
 
         <br>
           <img class="qubes--fw-img"
-            src="@/assets/images/mobile/qubes/02.png" />
+            src="@/assets/images/mobile/qubes/02.gif" />
           <img class="qubes--fw-img"
             src="@/assets/images/mobile/qubes/03.png" />
           <img class="qubes--fw-img"
@@ -198,7 +198,7 @@
           </div>
 
           <img class="qubes--fw-img"
-            src="@/assets/images/desktop/qubes/02.png" />
+            src="@/assets/images/desktop/qubes/02.gif" />
           <img class="qubes--fw-img"
             src="@/assets/images/desktop/qubes/03.png" />
           <img class="qubes--fw-img"
