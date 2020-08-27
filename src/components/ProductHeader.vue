@@ -17,7 +17,7 @@
         :class="{'product--header--nav-btn-active': isPopupOpen}"
         @click="toggleOpen">
           PRODUCTS
-        <div class="product--header--nav-dropdown" v-if="isDropdownOpen">
+        <div class="product--header--nav-dropdown" v-if="isDropdownOpen" v-click-outside="toggleDropdown">
           <router-link to="/mile-one">THE MILE ONE</router-link>
           <router-link to="/laptop-bag">LAPTOP BAG</router-link>
           <router-link to="/packing-qubes">PACKING CUBES</router-link>
@@ -40,7 +40,11 @@
 
 <script>
 import { matchMedia } from '@/utils/helpers'
+import vClickOutside from 'v-click-outside'
 export default {
+  directives: {
+    clickOutside: vClickOutside.directive
+  },
   data: function () {
     return {
       isPopupOpen: false,
@@ -53,14 +57,14 @@ export default {
         this.isPopupOpen = !this.isPopupOpen
         document.body.classList.toggle('popup-opened')
       } else {
-        this.isDropdownOpen = !this.isDropdownOpen
+        this.toggleDropdown()
       }
 
       if (typeof to === 'string') {
         this.$router.push(to).catch(err => err)
       }
     },
-    closeEvent () {
+    toggleDropdown () {
       this.isDropdownOpen = !this.isDropdownOpen
     }
   }
