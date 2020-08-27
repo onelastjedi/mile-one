@@ -25,20 +25,20 @@ const routes = [
     component: () => import('@/views/Reserve.vue')
   },
   {
-    path: '/product',
+    path: '/mile-one',
     name: 'Product',
     component: () => import('@/views/Product.vue')
   },
   {
-    path: '/qubes',
+    path: '/packing-qubes',
     name: 'Qubes',
     component: () => import('@/views/Qubes.vue')
-  },
-  {
-    path: '*',
-    name: '404',
-    component: () => import('@/views/Home.vue')
   }
+  // {
+  //   path: '*',
+  //   name: '404',
+  //   component: () => import('@/views/Home.vue')
+  // }
 ]
 
 const router = new VueRouter({
