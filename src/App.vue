@@ -67,4 +67,8 @@ html, body {
     line-height: 1.5;
   }
 }
+
+.popup-opened {
+  overflow: hidden;
+}
 </style>

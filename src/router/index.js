@@ -26,25 +26,23 @@ const routes = [
   },
   {
     path: '/mile-one',
-    name: 'Product',
-    component: () => import('@/views/Product.vue')
+    name: 'Mile One',
+    component: () => import('@/views/MileOne.vue')
   },
   {
     path: '/packing-qubes',
-    name: 'Qubes',
-    component: () => import('@/views/Qubes.vue')
+    name: 'Packing Qube',
+    component: () => import('@/views/PackingQubes.vue')
   }
-  // {
-  //   path: '*',
-  //   name: '404',
-  //   component: () => import('@/views/Home.vue')
-  // }
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
 
 export default router

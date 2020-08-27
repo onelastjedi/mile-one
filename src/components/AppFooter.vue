@@ -5,21 +5,21 @@
           <div class="footer__nav-column">
             <h4>SHOP</h4>
             <ul>
-              <li><a href="/mile-one">The Mile One</a></li>
-              <li><a href="/laptop-bag">Laptop Bag</a></li>
-              <li><a href="/packing-cube">Packing Cube</a></li>
+              <li><router-link to="/mile-one">The Mile One</router-link></li>
+              <li><router-link to="/laptop-bag">Laptop Bag</router-link></li>
+              <li><router-link to="/packing-qubes">Packing Cubes</router-link></li>
             </ul>
           </div>
 
           <div class="footer__nav-column">
             <h4>INFO</h4>
             <ul>
-              <li><a href="/brand">The Brand</a></li>
-              <li><a href="/use-and-care">Use & Care</a></li>
-              <li><a href="/materials">Materials</a></li>
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/shippin-and-returns">Shipping & Returns</a></li>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><router-link to="/brand">The Brand</router-link></li>
+              <li><router-link to="/use-and-care">Use & Care</router-link></li>
+              <li><router-link to="/materials">Materials</router-link></li>
+              <li><router-link to="/contact">Contact</router-link></li>
+              <li><router-link to="/shippin-and-returns">Shipping & Returns</router-link></li>
+              <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
             </ul>
           </div>
 
@@ -144,6 +144,7 @@
             grid-row-gap: 10px;
             grid-template-columns: none;
             grid-template-rows: min-content;
+            margin-top: 12px;
           }
         }
       }
