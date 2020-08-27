@@ -28,11 +28,11 @@
     </div>
 
     <div class="product--header--body" v-if="isPopupOpen">
-      <!-- <div class="product--header--body-close">&times;</div> -->
+      <div class="product--header--body-close" @click="toggleOpen">&times;</div>
       <div class="product--header--body-nav">
-        <div @click="toggleOpen('/mile-one')">THE MILE ONE</div>
-        <div @click="toggleOpen('/laptop-bag')">LAPTOP BAG</div>
-        <div @click="toggleOpen('/packing-qubes')">PACKING CUBES</div>
+        <p @click="toggleOpen('/mile-one')">THE MILE ONE</p>
+        <p @click="toggleOpen('/laptop-bag')">LAPTOP BAG</p>
+        <p @click="toggleOpen('/packing-qubes')">PACKING CUBES</p>
       </div>
     </div>
   </div>
@@ -81,7 +81,9 @@ $mobile: "(max-width: 768px)";
   background-color: #222222;
   color: white;
   font-size: 13px;
-  height: 50px;
+  height: 70px;
+  display: grid;
+  align-items: center;
 
   svg {
     width: 160px;
@@ -114,6 +116,7 @@ $mobile: "(max-width: 768px)";
     grid-template-columns: 1fr auto auto;
     grid-column-gap: 25px;
     max-width: 980px;
+    width: 100%;
     margin: 0 auto;
 
     @media #{$desktop} {
@@ -128,7 +131,7 @@ $mobile: "(max-width: 768px)";
       position: absolute;
       background-color: #222222;
       left: -30px;
-      top: 30px;
+      top: 42px;
       z-index: 1;
       white-space: nowrap;
 
@@ -164,16 +167,32 @@ $mobile: "(max-width: 768px)";
     background-color: #0F0F0F;
     z-index: 1;
     left: 0;
-    top: 50px;
+    top: 60px;
     height: 100%;
     width: 100%;
     text-align: center;
-    display: grid;
-    align-items: center;
 
-    div {
+    &-close {
+      font-size: 50px;
+      position: absolute;
+      right: 20px;
+    }
+
+    &-nav {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: -60px;
+      height: 220px;
+      bottom: 0;
+      margin: auto;
+    }
+
+    p {
       font-size: 18px;
+      font-weight: bold;
       line-height: 4;
+      letter-spacing: 0.5px;
       color: white;
       display: block;
       cursor: pointer;
