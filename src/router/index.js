@@ -30,6 +30,11 @@ const routes = [
     component: () => import('@/views/MileOne.vue')
   },
   {
+    path: '/laptop-bag',
+    name: 'Laptop Bag',
+    component: () => import('@/views/LaptopBag.vue')
+  },
+  {
     path: '/packing-qubes',
     name: 'Packing Qube',
     component: () => import('@/views/PackingQubes.vue')
