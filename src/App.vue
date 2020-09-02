@@ -33,6 +33,13 @@ export default {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets/fonts/AvenirNext-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
 html, body {
   margin: 0;
   padding: 0;
