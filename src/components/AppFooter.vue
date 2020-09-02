@@ -18,7 +18,7 @@
               <li><router-link to="/use-and-care">Use & Care</router-link></li>
               <li><router-link to="/materials">Materials</router-link></li>
               <li><router-link to="/contact">Contact</router-link></li>
-              <li><router-link to="/shippin-and-returns">Shipping & Returns</router-link></li>
+              <li><router-link to="/shipping-and-returns">Shipping & Returns</router-link></li>
               <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
             </ul>
           </div>
@@ -96,6 +96,7 @@
     h4 {
       margin: 0 0 10px;
       color: #B08D42;
+      font-weight: 500;
     }
 
     &__copy {
