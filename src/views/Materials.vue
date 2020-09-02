@@ -98,7 +98,7 @@ export default {
       h3 {
         color: #00CD71;
         font-family: "Avenir Next", Helvetica, Arial, sans-serif!important;
-        font-weight: 900;
+        font-weight: 500!important;
       }
 
       p {

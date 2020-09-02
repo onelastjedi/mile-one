@@ -335,6 +335,7 @@ export default {
 
       h4 {
         font-family: 'Avenir Next', sans-serif;
+        font-weight: 500;
         font-size: 24px;
         display: grid;
         grid-template-columns: 1fr auto;
@@ -350,7 +351,7 @@ export default {
 
       h5 {
         font-family: 'Avenir Next', sans-serif;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 1.14px;
         font-size: 23px;
         margin-bottom: 10px;

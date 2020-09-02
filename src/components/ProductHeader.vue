@@ -132,7 +132,7 @@ $mobile: "(max-width: 768px)";
       position: absolute;
       background-color: #222222;
       left: -30px;
-      top: 43px;
+      top: 42px;
       z-index: 1;
       white-space: nowrap;
 
@@ -150,6 +150,7 @@ $mobile: "(max-width: 768px)";
     &-btn {
       position: relative;
       cursor: pointer;
+      font-weight: 500;
     }
 
     &-btn-active::after {
@@ -191,7 +192,7 @@ $mobile: "(max-width: 768px)";
 
     p {
       font-size: 18px;
-      font-weight: bold;
+      font-weight: 500;
       line-height: 4;
       letter-spacing: 0.5px;
       color: white;
