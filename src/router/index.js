@@ -38,6 +38,11 @@ const routes = [
     path: '/packing-qubes',
     name: 'Packing Qube',
     component: () => import('@/views/PackingQubes.vue')
+  },
+  {
+    path: '/brand',
+    name: 'Brand',
+    component: () => import('@/views/Brand.vue')
   }
 ]
 

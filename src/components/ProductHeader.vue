@@ -90,6 +90,7 @@ $mobile: "(max-width: 768px)";
 
     @media #{$desktop} {
       justify-self: center;
+      margin-left: -40px;
     }
   }
 
@@ -131,7 +132,7 @@ $mobile: "(max-width: 768px)";
       position: absolute;
       background-color: #222222;
       left: -30px;
-      top: 42px;
+      top: 43px;
       z-index: 1;
       white-space: nowrap;
 
