@@ -245,7 +245,7 @@ export default {
   }
 
   .qubes {
-    background-color: white;
+    background-color: #E9E1DE;
     position: relative;
 
     &--btn {
@@ -262,8 +262,8 @@ export default {
       cursor: pointer;
 
       &:disabled {
-        background-color: #CFCFCF;
-        color: white;
+        background-color: #FFFFFF;
+        color: #B4B4B4;
       }
 
       @media #{$desktop} {
@@ -408,6 +408,7 @@ export default {
           max-width: 30px;
           text-align: center;
           margin: 0;
+          background-color: #ffffff;
           line-height: 28px;
         }
       }

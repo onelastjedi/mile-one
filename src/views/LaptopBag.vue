@@ -154,7 +154,7 @@ export default {
   }
 
   .laptop {
-    background-color: white;
+    background-color: #E9E1DE;
     position: relative;
 
     &--btn {

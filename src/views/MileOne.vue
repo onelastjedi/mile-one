@@ -280,7 +280,7 @@ export default {
   }
 
   .product {
-    background-color: white;
+    background-color: #E9E1DE;
     position: relative;
 
     &--player {
