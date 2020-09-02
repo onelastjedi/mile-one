@@ -1,7 +1,6 @@
 <template>
   <div class="brand">
     <product-header />
-    <!-- <img src="@/assets/images/desktop/brand/01.png" > -->
 
     <div class="brand--wrapper">
       <div class="brand--logo">
