@@ -48,6 +48,11 @@ const routes = [
     path: '/materials',
     name: 'Materials',
     component: () => import('@/views/Materials.vue')
+  },
+  {
+    path: '/shipping-and-returns',
+    name: 'Shipping',
+    component: () => import('@/views/Shipping.vue')
   }
 ]
 
