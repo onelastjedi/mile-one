@@ -124,6 +124,8 @@ export default {
 </script>
 
 <style lang="scss">
+  $mobile: "(max-width: 768px)";
+
   .shipping {
     background-color: #E9E1DE;
     position: relative;
@@ -193,6 +195,10 @@ export default {
       max-width: 980px;
       padding: 20px 100px 60px 0;
       margin: 0 auto;
+
+      @media #{$mobile} {
+        padding: 20px 20px;
+      }
     }
   }
 </style>
