@@ -136,11 +136,6 @@ export default {
       font-size: 40px;
       font-family: "Avenir Next", Helvetica, Arial, sans-serif!important;
       font-weight: 500!important;
-      text-align: center;
-
-      @media #{$desktop} {
-        text-align: left;
-      }
     }
 
     h2 {
