@@ -25,8 +25,7 @@ export default {
     ProductHeader
   },
   methods: {
-    onSubmit ({ target }) {
-      const { name, email } = target
+    onSubmit () {
     }
   }
 }
