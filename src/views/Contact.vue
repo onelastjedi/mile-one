@@ -84,13 +84,16 @@ export default {
       button {
         background-color: #00CD77;
         border: none;
-        width: 100%;
-        max-width: 300px;
+        width: 300px;
         height: 50px;
         font-size: 16px;
         text-transform: uppercase;
         outline: none;
         cursor: pointer;
+
+        @media #{$mobile} {
+          width: 100%;
+        }
       }
     }
 
