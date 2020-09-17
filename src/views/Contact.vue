@@ -27,8 +27,6 @@ export default {
   methods: {
     onSubmit ({ target }) {
       const { name, email } = target
-      console.log(name.value)
-      console.log(email.value)
     }
   }
 }
